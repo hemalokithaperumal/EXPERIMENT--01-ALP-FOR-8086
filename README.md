@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : HEMA LOKITHA P
+Roll no : 212223110014
+Date of experiment : 22.08.2024
 
 
 
@@ -79,25 +79,62 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 
+```
+start:
+MOV AL, 06
+MOV BL, 01
+ADD AL,BL
+HLT
 
-
+```
 ## Output  
  
+![add](ADD.png)
+
 ## Subtraction   of 8 bit numbers  ALP 
- 
-## Output  
-## Multiplication alp 
- ## Output  
+```
+start:
+MOV AL, 40
+MOV BL, 30
+SUB AL,BL
+HLT
 
+```
+## Output 
+
+![Sub](SUB.png)
+
+## Multiplication alp 
+
+```
+start:
+MOV AX, 04
+MOV BX, 03
+MUL BX
+HLT
+
+```
+ ## Output 
+
+![mul](MUL.png)
 
 ## Division alp 
 
+```
+start:
+MOV AX, 80
+MOV BX, 20
+DIV BX
+HLT
+
+```
 ## Output  
 
+![div](DIV.png)
 
 ## Result :
  
-
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
